@@ -1,0 +1,75 @@
+.box1 {
+  width: 1000px;
+  height: 250px;
+
+  padding: 50px 25px;
+  background-color: #d4d3d7bb;
+  margin-top: 2%;
+}
+.complemento2 {
+  font-family: Calibri;
+  font-weight: 300;
+}
+.complemento1 {
+  font-family: arial;
+  font-weight: 37%;
+}
+.cajas {
+  width: 150px;
+  height: 200px;
+  border: solid 2px;
+  margin: 1%;
+  border-style: color black;
+  padding: 1rem;
+  display: inline-block;
+  place-items: center;
+  font-family: arial;
+  font-weight: 37%;
+}
+
+/* paleta */
+.agua {
+  background-color: #00ffff;
+}
+
+.morado {
+  background-color: #4d32e9;
+}
+
+.fusia {
+  background-color: #9a01d1;
+}
+
+.verde {
+  background-color: #00ffbfbb;
+}
+
+.grey {
+  background-color: #b5b3ba82;
+}
+.yellow {
+  background-color: #f7f705;
+}
+.red {
+  background-color: #ff0000d5;
+}
+
+.a-butt {
+  display: inline-block;
+  font-weight: 12px;
+  font-family: arial;
+  border-radius: 30px 30px 30px 30px;
+  border: solid 2px;
+}
+
+.b-butt .a-butt {
+  font-size: 30px;
+}
+
+.m-butt .a-butt {
+  font-size: 25px;
+}
+
+.s-butt .a-butt {
+  font-size: 20;
+}
