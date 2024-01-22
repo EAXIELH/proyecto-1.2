@@ -86,6 +86,9 @@
 .green {
   background-color: #008000;
 }
+.l-white {
+  color: #b9b5b5;
+}
 
 .a-butt {
   display: inline-block;
@@ -116,30 +119,69 @@
   border: solid 2px;
 }
 
-table {
+.table1 {
   width: 40%;
   border-top: 1px solid #b9b5b5;
   display: inline-block;
-  padding: 2rem;
+  padding: 1rem;
 }
 
-td {
+.td1 {
   width: 25%;
   text-align: center;
   vertical-align: center;
   border-top: 1px solid #b9b5b5;
   border-collapse: collapse;
-  padding: 0.3em;
 }
-th {
+.th1 {
   width: 5%;
   text-align: center;
   vertical-align: top;
   border-top: 1px solid #b9b5b5;
   border-collapse: collapse;
-  padding: 1em;
 }
 
-caption {
-  padding: 0.3em;
+.table2 {
+  width: 50%;
+  border: 1px solid #000;
+  display: inline-block;
+}
+.th2 {
+  width: 10%;
+  text-align: center;
+  vertical-align: top;
+  border: solid 1px #000;
+  padding: 0.5em;
+  caption-side: bottom;
+}
+
+.td2 {
+  width: 25%;
+  text-align: center;
+  vertical-align: top;
+  border: solid 1px #000;
+  padding: 1em;
+  caption-side: bottom;
+}
+
+.caption {
+  padding: 0.5em;
+}
+
+.nav {
+  padding-left: 1rem;
+  margin-bottom: 1rem;
+  list-style: none;
+  display: inline-block;
+}
+.nav-link {
+  display: block;
+  padding: 0.5rem 1rem;
+}
+.nav-item {
+  display: list-item;
+  display: inline-block;
+}
+
+.btn {
 }
