@@ -593,8 +593,33 @@ padding:10px 0 10px 20px ;
   font-family: inherit;
 
 }
+.b-butto{
+  padding: 20px;
+  height: 30px;
+  width: 12rem;
+  border-radius: 5px 5px 5px 5px;
+}
 
+.b-butto2{
+  padding: 20px;
+  height: 30px;
+  width: 15rem;
+  border-radius: 5px 5px 5px 5px;
+}
 
+.b-butto3{
+  padding: 10px;
+  height: 15px;
+  width: 7rem;
+  border-radius: 5px 5px 5px 5px;
+}
+
+.b-butto4{
+  padding: 10px;
+  height: 15px;
+  width: 9rem;
+  border-radius: 5px 5px 5px 5px;
+}
 
 
 
