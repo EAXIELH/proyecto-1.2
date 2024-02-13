@@ -14,6 +14,7 @@ padding: 2rem 3rem 5rem 6rem;
     padding: 3rem 2rem;
     background-color: #e9ecef;
     text-decoration: none;
+    font-size: 1rem;
   }
   .textcenter {
     text-align: center !important;
@@ -23,10 +24,11 @@ padding: 2rem 3rem 5rem 6rem;
   }
   
   .complemento2 {
-    font-family: inherit;
-    font-weight: 300;
-    font-size: 2rem;
-    font-weight: 500;
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style:normal ;
+    font-size: 30px;
+    font-weight: bold;
   }
   .complemento1 {
     font-family: arial;
@@ -294,7 +296,7 @@ margin-bottom: 7px;
     width: 40%;
     border-top: 1px solid #b9b5b5;
     display: inline-block;
-    padding: 1rem;
+    padding: 3rem;
     border-collapse: collapse;
   }
   
@@ -340,7 +342,7 @@ border-collapse: collapse ;
   }
   
   .caption {
-    padding: 0.5em;
+    padding:0.8rem;
   }
   
   .nav {
@@ -371,6 +373,9 @@ border-collapse: collapse ;
   }
   .border-nav{
     border: 1px 1px 0 1px rgb(204, 193, 193);
+  }
+  .s-badges{
+    margin-left: -3rem;
   }
   
   .dropdown {
@@ -464,15 +469,13 @@ border-collapse: collapse ;
   
   .alerts{
     height: auto;
-    width: 80%;
-    margin-left:4rem;
+    width: 95%;
     padding: 15px;
     border-radius: 5px ;
   }
   .p-bars{
     height: 17px;
-    width: 80%;
-    margin-left:4rem;
+    width: 100%;
   border-radius: 2px block;
   }
   
@@ -529,6 +532,7 @@ padding: 0%;
   width: 45%;
   list-style-type: none;
   padding: 0;
+  margin-left: -2rem;
 }
 
 .lu-g{
@@ -556,13 +560,16 @@ padding: 1px;
   width: 40%;
   list-style-type: none;
   padding: 0;
+  margin-right: 2rem;
 }
 .grups3{
   display: flex;
 flex-direction: column;
 gap: flex;
 height: 20rem;
-width: 25%;}
+width: 25%;
+}
+
 
 .boxg3{
   width: 60%;
@@ -584,7 +591,6 @@ flex-direction: column;
 .f-column{
   display: flex;
 flex-direction: column;
-margin-left: 4rem;
 }
 .mute{
   color: #858f96!important;
@@ -593,14 +599,14 @@ margin-left: 4rem;
 .a-cards{
   display: flex;
   flex-direction: row;
-  padding-left: 1rem;
   padding-bottom: 2rem;
   justify-content: center;
+
 }
 .b-cards{
 height: 250px;
-width: 200px;
-margin-left: 25px;
+width: 260px;
+margin-right: 20px;
 border-radius: 5px 5px 5px 5px;
 font-family: inherit;
 }
