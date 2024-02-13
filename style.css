@@ -2,7 +2,7 @@
   height: auto;
   width: auto;
   margin: 0 15rem 15rem 15rem;
-padding: 2rem 4rem 5rem 5rem;
+padding: 2rem 3rem 5rem 6rem;
 
 }
 
@@ -11,8 +11,9 @@ padding: 2rem 4rem 5rem 5rem;
 .box1 {
     width: 95%;
     height: 130;
-    padding: 3rem 1rem;
+    padding: 3rem 2rem;
     background-color: #e9ecef;
+    text-decoration: none;
   }
   .textcenter {
     text-align: center !important;
@@ -64,6 +65,9 @@ padding: 2rem 4rem 5rem 5rem;
 .d-center{
   display:flex ;
   justify-content: center;
+}
+.link{
+  text-decoration: none;
 }
 
 
@@ -149,10 +153,10 @@ padding: 2rem 4rem 5rem 5rem;
 background-color: #bee5eb;
   }
   .white-gr{ 
-    background-color: #fdfdfe;
+    background-color: #c3c3c5;
   }
   .grey-gr{
-    background-color: #c6c8ca;
+    background-color: #979ba0;
   }
   .b-blue{
     border-bottom:#1e60ee 1px solid ; 
@@ -165,12 +169,13 @@ background-color: #bee5eb;
     color: #ffffff;
   }
   .lb-white {
-    color: #a7a4a4;
+    color: #7c7a7a;
   }
   .s-white{ 
-    color: #d3d6d8!important;
+    color: #e2e6e7!important;
   }
   .l-black{color: #000;}
+.lb-gray{background-color: #888686;}
 
 .l-blue{
   color: #007bff;
@@ -235,6 +240,7 @@ color: black;
 
 
   /*medidas*/
+  .h5px{ font-size: 5px;}
   .h30px{ font-size: 30px;}
   .h27-5{font-size: 27.5px;}
   .h25px{font-size: 25px;}
@@ -248,26 +254,31 @@ color: black;
   .h50-w150{ width: 150;} 
 .p-text{padding-top: 7rem;}
 
+.p-butt{padding: 4px;}
 
   .a-butt {
     display: inline-block;
     font-weight: 12px;
     font-family: arial;
     border: solid 2px;
-    margin: 0.3%;
+margin-bottom: 7px;
     border-radius: 5px 5px 5px 5px;
   }
   
   .b-butt .a-butt {
-    font-size: 30px;
+    font-size: 17px;
+    padding: 12px;
   }
   
   .m-butt .a-butt {
-    font-size: 25px;
+    font-size: 14;
+    padding: 10px 12px 10px 12px;
   }
+
   
   .s-butt .a-butt {
-    font-size: 20;
+    font-size: 12px;
+    padding: 8px 10px 8px 10px;
   }
   
   .r-butt {
@@ -276,6 +287,7 @@ color: black;
     font-family: arial;
     border-radius: 30px 30px 30px 30px;
     border: solid 2px transparent;
+
   }
   
   .table1 {
@@ -283,14 +295,16 @@ color: black;
     border-top: 1px solid #b9b5b5;
     display: inline-block;
     padding: 1rem;
+    border-collapse: collapse;
   }
   
   .td1 {
     width: 25%;
     text-align: center;
     vertical-align: center;
-    border-top: 1px solid #b9b5b5;
+    border-top: 1px solid #bbb5b5;
     border-collapse: collapse;
+    padding: 4px 0px 6px 45px;
   }
   .th1 {
     width: 5%;
@@ -302,16 +316,18 @@ color: black;
   
   .table2 {
     width: 30rem;
-    border: 1px solid #000;
+    border: 1px solid #e4d3d3;
     display: inline-block;
+border-collapse: collapse ;
   }
   .th2 {
     width: 10%;
     text-align: center;
     vertical-align: top;
-    border: solid 1px #000;
+    border: solid 1px #e4d3d3;
     padding: 0.5em;
     caption-side: bottom;
+
   }
   
   .td2 {
@@ -336,10 +352,12 @@ color: black;
   .nav-link {
     display: block;
     padding: 0.5rem ;
+    text-decoration: none;
   }
   .nav-item {
     display: list-item;
     display: inline-block;
+    text-decoration: none
   }
   
   .nav-tabs {
@@ -382,13 +400,14 @@ color: black;
   }
   .nav a:hover{
     color: #e4dcdc;
-  border-color: #b1aeae;
+  border-color: #615c5c;
   }
   .ul-bar {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
+
   }
   
   .li-bar {
@@ -399,7 +418,7 @@ color: black;
   
   .li-bar a {
     display: block;
-    color: rgb(129, 127, 127);
+    color: rgb(211, 253, 221);
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -410,7 +429,7 @@ color: black;
   }
   .a{    display: block;
     padding: 8px;
-    background-color: #dddddd;}
+    background-color: #b6b4b4;}
     
   .li-butt{
     padding: 8px;
@@ -419,6 +438,8 @@ color: black;
     background-image: none;
     border-color: #28a745;
     padding: 0.5rem;
+    text-decoration: none;
+  color: #008000;
   }
   .li-butt:hover{
     background-color: #008000;
@@ -505,7 +526,7 @@ padding: 0%;
 }
 .c-groups1{
   height: 15rem;
-  width: 25%;
+  width: 45%;
   list-style-type: none;
   padding: 0;
 }
@@ -526,8 +547,8 @@ list-style-type: none;
 .li-g12 {
 border-radius: 20% 20% 20% 20%;
 text-align: center; 
-padding-left: 20px;
-
+margin-left: 80%;
+padding: 1px;
 }
 
 .groups2{
@@ -544,7 +565,7 @@ height: 20rem;
 width: 25%;}
 
 .boxg3{
-  width: 50%;
+  width: 60%;
   height: 33%;
 text-decoration: none;
 padding: 2px 25px 25px 20px;
